@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Habit extends Component {
   handleIncrement = () => {
-    this.props.onIncrement(this.props.habit);
+    this.props.onIncrement(this.props.habit); //props로 전달받은 데이터를 인자로 전달
   };
 
   handleDecrement = () => {
